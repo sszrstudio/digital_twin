@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github-actions-demo/static/css/main.073c9b0a.css",
-    "main.js": "/github-actions-demo/static/js/main.5b622878.js",
-    "static/js/787.8d303965.chunk.js": "/github-actions-demo/static/js/787.8d303965.chunk.js",
-    "static/media/logo.svg": "/github-actions-demo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/github-actions-demo/index.html",
-    "main.073c9b0a.css.map": "/github-actions-demo/static/css/main.073c9b0a.css.map",
-    "main.5b622878.js.map": "/github-actions-demo/static/js/main.5b622878.js.map",
-    "787.8d303965.chunk.js.map": "/github-actions-demo/static/js/787.8d303965.chunk.js.map"
+    "main.css": "/digital_twin/static/css/main.073c9b0a.css",
+    "main.js": "/digital_twin/static/js/main.e24022ef.js",
+    "static/js/787.8d303965.chunk.js": "/digital_twin/static/js/787.8d303965.chunk.js",
+    "static/media/logo.svg": "/digital_twin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/digital_twin/index.html",
+    "main.073c9b0a.css.map": "/digital_twin/static/css/main.073c9b0a.css.map",
+    "main.e24022ef.js.map": "/digital_twin/static/js/main.e24022ef.js.map",
+    "787.8d303965.chunk.js.map": "/digital_twin/static/js/787.8d303965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.5b622878.js"
+    "static/js/main.e24022ef.js"
   ]
 }

@@ -2,7 +2,7 @@
   "name": "digital_twin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sszrstudio.github.io/digital_twin",
+  "homepage": "./",
   "dependencies": {
     "@pmndrs/branding": "0.0.8",
     "@react-three/drei": "^9.19.5",

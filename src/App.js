@@ -3,14 +3,14 @@ import { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Environment, OrbitControls, Lightformer, Float, BakeShadows, ContactShadows } from '@react-three/drei'
 import { LayerMaterial, Base, Depth } from 'lamina'
-// import { Car } from './Car'
+import { Car } from './Car'
 
 export const App = () => (
   <>
   <img src='/logo512.png' alt="图片错误"/>
     <Canvas shadows dpr={[1, 2]} camera={{ position: [-10, 0, 15], fov: 30 }}>
       <OrbitControls />
-      {/* <Car /> */}
+      <Car />
       <spotLight position={[0, 15, 0]} angle={0.3} penumbra={1} castShadow intensity={2} shadow-bias={-0.0001} />
       <ambientLight intensity={0.2} />
       <ContactShadows resolution={1024} frames={1} position={[0, -1.16, 0]} scale={10} blur={3} opacity={1} far={10} />

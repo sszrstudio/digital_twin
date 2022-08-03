@@ -6,7 +6,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Car(props) {
-  const { nodes, materials } = useGLTF('/glb/Car.glb')
+  const { nodes, materials } = useGLTF('/digital_twin/glb/Car.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[-0.02, -0.01, 0.06]} rotation={[-Math.PI / 2, 0, 0]} scale={0.58}>

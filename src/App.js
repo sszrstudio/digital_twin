@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Environment, OrbitControls, Lightformer, Float, BakeShadows, ContactShadows } from '@react-three/drei'
 import { LayerMaterial, Base, Depth } from 'lamina'
-import { Car } from './Car'
+// import { Car } from './Car'
 
 export const App = () => (
   <>

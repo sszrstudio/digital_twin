@@ -7,7 +7,7 @@ import { Car } from './Car'
 
 export const App = () => (
   <>
-  <img src='/logo512.png' alt="图片错误"/>
+  <img src='/digital_twin/logo512.png' alt="图片错误"/>
     <Canvas shadows dpr={[1, 2]} camera={{ position: [-10, 0, 15], fov: 30 }}>
       <OrbitControls />
       <Car />

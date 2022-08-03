@@ -1,7 +1,7 @@
 import * as THREE from 'three'
-import { useMemo, useRef } from 'react'
-import { Canvas, applyProps, useFrame } from '@react-three/fiber'
-import { Environment,OrbitControls, Lightformer, Float, useGLTF, BakeShadows, ContactShadows } from '@react-three/drei'
+import { useRef } from 'react'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { Environment,OrbitControls, Lightformer, Float,BakeShadows, ContactShadows } from '@react-three/drei'
 import { LayerMaterial, Base, Depth } from 'lamina'
 import  {Car}  from './Car'
 
